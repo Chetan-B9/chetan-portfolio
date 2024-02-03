@@ -1,6 +1,6 @@
 // script for fetching project data from json file 
 document.addEventListener('DOMContentLoaded', ()=>{
-    fetch("../projects-data.json")
+    fetch("https://github.com/Chetan-B9/chetan-portfolio.github.io/blob/742e548a722389e3ca6abff7f688ed24f2c144ce/projects-data.json")
        .then(response => response.json())
        .then(data => {
         displayProjectData(data);
