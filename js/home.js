@@ -1,6 +1,6 @@
 // script for fetching project data from json file 
 document.addEventListener('DOMContentLoaded', ()=>{
-    fetch("../projects-data.json")
+    fetch("projects-data.json")
        .then(response => response.json())
        .then(data => {
         displayProjectData(data);
