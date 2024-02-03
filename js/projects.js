@@ -53,6 +53,6 @@ document.addEventListener('DOMContentLoaded', createCard);
 
 const redirect = (id) => {
     localStorage.setItem("projectId", id);
-    location.href = "../project-info.html";
+    location.href = "project-info.html";
 }
 
