@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hi, I am Chetan Bedakihale. Creative Front-End Developer seeking new challenges! I craft user-friendly interfaces and deliver engaging web experiences. Explore my portfolio showcasing innovative projects like an online student attendance system, music player, audio visualizer, and this interactive portfolio itself. Contact me for exciting collaborations!"/>
+    <meta name="keywords" content="Front-End Developer, Web Developer, Uset Interface (UI) Design, User Experience (UX) Design, HTML, CSS, JavaScript, React, Interactive Portfolio, Creative, Collaborative, Problem Solver, Fast Learner, My Portfolio, Portfolio, Chetan Bedakihale, Chetan"/>
+    <meta name="robots" content="index, follow"/>
+    <title>My Portfolio - projects</title>
+
+    <!-- bootstrap styling plink  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- AOS style link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- linking global css file  -->
+    <link rel="stylesheet" href="./css/global.css" />
+
+    <!-- linking projects page css file -->
+    <link rel="stylesheet" href="./css/projects.css" />
+  </head>
+  <body class="overflow-x-hidden">
+    <section class="portfolio vw-100 text-light visually-hidden" id="Portfolio" role="region">
+      <a href ="#header_section" class="lifter">
+        <i class="fa-solid fa-hand-pointer"></i>
+      </a>
+
+      <!-- header section  -->
+      <header class="vw-100 pt-4" role="banner" id="header_section">
+        <div class="container-fluid container-lg">
+          <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class=" navbar_container container-fluid justify-content-between">
+              <a class="navbar-brand navbar_brand" href="index.html"><span class="fw-bold navbar_brand_text">my</span><span class="fs-4 fw-bold" style="color : var(--main-color)">Portfolio</span></a>
+              <button
+                class="navbar-toggler nav_toggle_button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menucontent"
+                aria-controls="menucontent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+              <span><i class="fa-solid fa-bars-staggered"></i></span>
+            </button>
+              <div class="collapse navbar-collapse " id="menucontent" role=""menu>
+                <ul
+                  class="navbar-nav me-auto mb-2 mb-lg-0 mt-2 p-3  rounded-2 d-lg-none"
+                >
+                  <li class="nav-item rounded-1">
+                    <a class="nav-link navbar_link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item rounded-1">
+                    <a class="nav-link navbar_link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item rounded-1">
+                    <a class="nav-link navbar_link" href="projects.html">Projects</a>
+                  </li>
+                  <li class="nav-item rounded-1">
+                    <a class="nav-link navbar_link" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item rounded-1">
+                    <a class="nav-link navbar_link" href="#contact">Contact</a>
+                  </li>
+
+                  <hr>
+                  <a href="./Resume/Chetan's Resume.pdf" class="resume_button btn d-lg-none w-100" role="button" download="Chetan Bedakihale">My Resume</a>
+                  
+                </ul>
+              </div>
+
+              <div class="d-none d-lg-block main_nav" id="navbarSupportedContent" role="navigation">
+                <ul
+                  class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end align-items-center gap-4"
+                >
+                  <li class="nav-item">
+                    <a class="nav-link navbar_link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navbar_link " href="index.html#about">About</a>
+                  </li>
+                  <li class="nav-item nav_item">
+                    <a class="nav-link navbar_link active_link" href="projects.html">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navbar_link" href="index.html#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link navbar_link" href="index.html#contact">Contact</a>
+                  </li>
+                </ul>
+               
+
+              </div>
+              <a href="./Resume/Chetan's Resume.pdf" class="resume_button btn d-none d-lg-block" role="button" download="Chetan Bedakihale">My Resume</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- header section ends  -->
+      
+      <main role="main">
+        <!-- breadcrumb  -->
+        <div class="container-fluid container-lg mt-5">
+          <nav aria-label="breadcrumb" role="navigation">
+              <ol class="breadcrumb" style=" background : var(--light-bg-color); padding : 1rem;">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item" aria-current="page" style=" color: var(--main-color);">Projects</li>
+              </ol>
+          </nav>
+      </div>
+      <!-- breadcrumb ends  -->
+
+      <!-- projects section  -->
+      <section class="projects-section container-lg mt-5">
+        <h2 class = "section-headings">My Personal Projects</h2>
+        <div class="cards_container container-fluid container-lg mt-5 ">
+          <div class="cards_row row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5 p-4 p-lg-0" id="cards-container">
+
+          </div>
+        </div>
+        
+      </section>
+      <!-- projects section ends  -->
+    </main>
+
+      <!-- footer section  -->
+      <footer class="footer_section p-3" role="contentinfo">
+         <div class="container">
+          <div class="row text-center text-lg-start">
+            <a class="text-dark fw-bold text-decoration-none" href="index.html"><span class="fs-6">my</span><span class=" fs-4 ">Portfolio</span></a>
+
+          </div>
+
+          <div class="text-center mt-3">
+            <h3 class="message">Bringing designs to life with code magic.</h3>
+          </div>
+
+          <div class = "social_icons_container mt-4">
+            <div class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Linked in" onclick="location.href= 'https://www.linkedin.com/in/chetan-bedakihale-17885423b'"><i class="fa-brands fa-linkedin-in"></i></div>
+            <div data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram" onclick="location.href = 'https://www.instagram.com/c_h_e_t_a_n_b220?utm_source=qr&igsh=eXMwa2RuMTVvdnow'"><i class="fa-brands fa-instagram"></i></div>
+            <div data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Whatsapp" onclick="location.href = 'https://api.whatsapp.com/send?phone=919902831780'"><i class="fa-brands fa-whatsapp"></i></div>
+            <div data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Github" onclick="location.href = 'https://github.com/Chetan-B9'"><i class="fa-brands fa-github"></i></div>
+          </div>
+
+          <div class="d-flex  flex-column flex-lg-row justify-content-lg-between  align-items-center mt-5">
+            <p class="text-center">Copyright &copy 2024 - <a href="index.html" class="fw-bold text-dark link-underline-dark link-underline-opacity-0 link-underline-opacity-100-hover link-offset-3">myPortfolio</a>. All rights reserved</p>
+            <p>Desinged and developed by <a href="index.html" class="fw-bold text-dark link-underline-dark link-underline-opacity-0 link-underline-opacity-100-hover link-offset-3">Chetan B</a></p>
+          </div>
+         </div>
+      </footer>
+      <!-- footer section ends  -->
+    </section>
+    <!-- bootstrap script link  -->
+
+    <!-- loader  -->
+	<div class = "loader" id = "Loader">
+    <div>
+      <div>
+      <div class = "ball1"></div>
+    </div>
+      <div>
+       <div class = "ball2"></div>
+    </div>
+    </div>
+  </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- tooltip script  -->
+    <script>
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+    <!-- tooltip script end  -->
+
+    <!-- AOS script  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>    
+    <!-- AOS script ends -->
+
+    <!-- custom script  -->
+    <script src="./js/app.js"></script>
+    <script src="./js/projects.js"></script>
+    <!-- custom script ends  -->
+  </body>
+</html>
