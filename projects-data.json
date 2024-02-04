@@ -7,24 +7,24 @@
         "goal" : "This project aims to revolutionize student attendance by significantly reducing the time it takes to record it. We will create a streamlined and efficient platform for registering presence, eliminating cumbersome traditional methods. This not only saves valuable teaching time but also empowers educators to easily track student engagement and maintain accurate records.",
         "myRole" : "For this project, I took ownership of both the UI design and development, along with building the backend codebase. While my teammate skillfully crafted the database structure, I brought it to life through implementation.",
         "usedTechnologies" : ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MySQL"],
-        "thumbnail" : "../Screenshots/Online Student Attendance System/Home page thumbnail.webp",
+        "thumbnail" : "Screenshots/Online Student Attendance System/Home page thumbnail.webp",
         "screenshots" : [
-            "../Screenshots/Online Student Attendance System/Home page.webp",
-            "../Screenshots/Online Student Attendance System/About us page.webp",
-            "../Screenshots/Online Student Attendance System/Registration page.webp",
-            "../Screenshots/Online Student Attendance System/Wish page.webp",
-            "../Screenshots/Online Student Attendance System/Login page.webp",
-            "../Screenshots/Online Student Attendance System/Teacher dashboard.webp",
-            "../Screenshots/Online Student Attendance System/Attendance code generation page.webp",
-            "../Screenshots/Online Student Attendance System/Attendance Code page.webp",
-            "../Screenshots/Online Student Attendance System/Record Checking page.webp",
-            "../Screenshots/Online Student Attendance System/Profile update page.webp",
-            "../Screenshots/Online Student Attendance System/Student dashboard.webp",
-            "../Screenshots/Online Student Attendance System/Student Attendance page.webp",
-            "../Screenshots/Online Student Attendance System/Student Attendance record page.webp"
+            "Screenshots/Online Student Attendance System/Home page.webp",
+            "Screenshots/Online Student Attendance System/About us page.webp",
+            "Screenshots/Online Student Attendance System/Registration page.webp",
+            "Screenshots/Online Student Attendance System/Wish page.webp",
+            "Screenshots/Online Student Attendance System/Login page.webp",
+            "Screenshots/Online Student Attendance System/Teacher dashboard.webp",
+            "Screenshots/Online Student Attendance System/Attendance code generation page.webp",
+            "Screenshots/Online Student Attendance System/Attendance Code page.webp",
+            "Screenshots/Online Student Attendance System/Record Checking page.webp",
+            "Screenshots/Online Student Attendance System/Profile update page.webp",
+            "Screenshots/Online Student Attendance System/Student dashboard.webp",
+            "Screenshots/Online Student Attendance System/Student Attendance page.webp",
+            "Screenshots/Online Student Attendance System/Student Attendance record page.webp"
 
         ],
-        "video" : "./video/Get Attend Edited.webm",
+        "video" : "video/Get Attend Edited.webm",
         "github" : "https://github.com/Chetan-B9/Online-Student-Attendance-System-College-Project"
     },
     
@@ -35,12 +35,12 @@
         "goal" : "This Audio Visualizer is crafted for sheer enjoyment, serving as a delightful platform to elevate my proficiency in HTML, CSS, and JavaScript. Through its creation, I aim to enhance my skills and bring a touch of joy to the realm of web development.",
         "myRole" : "UI design and Frontend is developed by me. ",
         "usedTechnologies" : ["HTML", "CSS", "JavaScript"],
-        "thumbnail" : "../Screenshots/Audio Visualizer/Audio Visualizer img-2.webp",
+        "thumbnail" : "Screenshots/Audio Visualizer/Audio Visualizer img-2.webp",
         "screenshots" : [
-            "../Screenshots/Audio Visualizer/Audio Visualizer img-1.webp",
-            "../Screenshots/Audio Visualizer/Audio Visualizer img-2.webp"
+            "Screenshots/Audio Visualizer/Audio Visualizer img-1.webp",
+            "Screenshots/Audio Visualizer/Audio Visualizer img-2.webp"
         ],
-        "video" : "./video/Audio Visualizer Edited.webm",
+        "video" : "video/Audio Visualizer Edited.webm",
         "github" : "https://github.com/Chetan-B9/Audio-Visualizer"
     },
 
@@ -51,13 +51,13 @@
         "goal" : "This music player is crafted for sheer enjoyment, serving as a delightful platform to elevate my proficiency in HTML, CSS, and JavaScript. Through its creation, I aim to enhance my skills and bring a touch of joy to the realm of web development.",
         "myRole" : "UI design and Frontend is developed by me. ",
         "usedTechnologies" : ["HTML", "CSS", "JavaScript"],
-        "thumbnail" : "../Screenshots/Music Player/Music Player page 2.1.webp",
+        "thumbnail" : "Screenshots/Music Player/Music Player page 2.1.webp",
         "screenshots" : [
-            "../Screenshots/Music Player/Music Player page 1.webp",
-            "../Screenshots/Music Player/Music Player page 2.webp",
-            "../Screenshots/Music Player/Music Player page 2.1.webp"
+            "Screenshots/Music Player/Music Player page 1.webp",
+            "Screenshots/Music Player/Music Player page 2.webp",
+            "Screenshots/Music Player/Music Player page 2.1.webp"
         ],
-        "video" : "./video/Music Player Edited.webm",
+        "video" : "video/Music Player Edited.webm",
         "github" : "https://github.com/Chetan-B9/Music-Player"
     }
 ]
