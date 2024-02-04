@@ -1,6 +1,6 @@
 async function projectData(){
     try{
-        const response = await fetch("../projects-data.json");
+        const response = await fetch("projects-data.json");
         const data = await response.json();
         return data;
     }
@@ -53,6 +53,6 @@ document.addEventListener('DOMContentLoaded', createCard);
 
 const redirect = (id) => {
     localStorage.setItem("projectId", id);
-    location.href = "../project-info.html";
+    location.href = "project-info.html";
 }
 
