@@ -50,14 +50,14 @@ document.addEventListener('DOMContentLoaded', ()=>{
     const sillsContainer = document.getElementById('skills-container');
     const mySkills = ["HTML", "CSS", "Bootstrap", "JavaScript", "React", "PHP", "MySQL", "GitHub"];
     const mySkillsIcons = {
-      "HTML" : "Icons/skills icons/html-5-svgrepo-com.png",
-      "CSS" : "Icons/skills icons/css3-svgrepo-com.png",
-      "Bootstrap" : "Icons/skills icons/bootstrap.png",
-      "JavaScript" : "Icons/skills icons/js.png",
-      "PHP" : "Icons/skills icons/php.png",
-      "MySQL" : "Icons/skills icons/mysql.png",
-      "React" : "Icons/skills icons/react.png",
-      "GitHub" : "Icons/skills icons/github.png"
+      "HTML" : "./Icons/skills icons/html-5-svgrepo-com.webp",
+      "CSS" : "./Icons/skills icons/css3-svgrepo-com.webp",
+      "Bootstrap" : "./Icons/skills icons/bootstrap.webp",
+      "JavaScript" : "./Icons/skills icons/js.webp",
+      "PHP" : "./Icons/skills icons/php.webp",
+      "MySQL" : "./Icons/skills icons/mysql.webp",
+      "React" : "./Icons/skills icons/react.webp",
+      "GitHub" : "./Icons/skills icons/github.webp"
     };
 
     const skillScores = {
