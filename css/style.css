@@ -935,15 +935,15 @@ header{
   } 
 }
 
-@media (width <= 767px) {
+@media (width <= 576px) {
   .hero_section {
     padding-top: 3rem;
     height: calc(100vh - 82px);
   }
 
   .hero_section .container .row .image-side img {
-    width: 5rem;
-    height: 5rem;
+    width: 18rem;
+    height: 18rem;
   }
 
   .hero_section .container .row .intro-side {
