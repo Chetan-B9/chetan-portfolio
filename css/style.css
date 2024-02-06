@@ -935,7 +935,7 @@ header{
   } 
 }
 
-@media (width <= 576px) {
+@media (width <= 767px) {
   .hero_section {
     padding-top: 3rem;
     height: calc(100vh - 82px);
