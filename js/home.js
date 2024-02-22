@@ -1,5 +1,6 @@
 // script for fetching project data from json file 
 document.addEventListener('DOMContentLoaded', ()=>{
+    // Getting project data from projcts-data.json file. 
     fetch("projects-data.json")
        .then(response => response.json())
        .then(data => {
@@ -8,7 +9,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
        .catch(error => {
         console.error("Error to fetch data", error);
        })
-  
+
+    // function to fetch the received project data on 'projects section' of index.html page.
     const displayProjectData = (projectData) =>{
       
       let p1Image = document.querySelector('#card_image1');
@@ -27,19 +29,19 @@ document.addEventListener('DOMContentLoaded', ()=>{
       let p3Description = document.querySelector('#card_text3');
       let p3ViewButton = document.querySelector('#view-button3');
 
-  
+      // Displaying project data on project card 1.
       p1Image.src = `${projectData[0].thumbnail}`;
       p1ProjectName.innerHTML = projectData[0].projectName;
       p1Description.innerHTML = projectData[0].description;
       p1ViewButton.setAttribute("onclick", `localStorage.setItem("projectId", "${projectData[0].projectId}")`);
 
-  
+      // Displaying project data on project card 2.
       p2Image.src = `${projectData[1].thumbnail}`;
       p2ProjectName.innerHTML = projectData[1].projectName;
       p2Description.innerHTML = projectData[1].description;
       p2ViewButton.setAttribute("onclick", `localStorage.setItem("projectId", "${projectData[1].projectId}")`);
 
-  
+      // Displaying project data on project card 3.
       p3Image.src = `${projectData[2].thumbnail}`;
       p3ProjectName.innerHTML = projectData[2].projectName;
       p3Description.innerHTML = projectData[2].description;
@@ -47,6 +49,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         
     }
 
+    // script for skills section.
     const sillsContainer = document.getElementById('skills-container');
     const mySkills = ["HTML", "CSS", "Bootstrap", "JavaScript", "React", "PHP", "MySQL", "GitHub"];
     const mySkillsIcons = {
@@ -71,6 +74,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
       "GitHub" : 50
     }
 
+    // creating dynamic divisions for each skills and displaying skills image, name, and score of that skill.
     mySkills.forEach(skill => {
       if(skill in mySkillsIcons){
         let skillCount = 1;
