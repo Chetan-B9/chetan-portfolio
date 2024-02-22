@@ -1,19 +1,22 @@
+//Function to get data from projects-data.json file into projecrs.js file.
 async function projectData(){
     try{
-        const response = await fetch("projects-data.json");
-        const data = await response.json();
-        return data;
+        const response = await fetch("projects-data.json"); // fetching json data in to response variable.
+        const data = await response.json(); // making json data (project data) in to javascript objecct. 
+        return data; // returning project data which is in javascript object formate.
     }
-    catch(error){
+    catch(error){  // if fetching process faild then this catch block will exicute.
         console.error("Error in Fetching data : ", error);
     }
 }
 
+// creating a function which creates dynamic project cards for each project.
 async function createCard(){
     const cardContainer = document.getElementById('cards-container');
-    const data = await projectData();
+    const data = await projectData(); // json to object converted data which is returned by projectData() function.
 
     data.forEach(project => {
+        // creating dynamic cards for each projects and displaying those data which is received by projects-data.json file.
         const column = document.createElement('div');
         column.className = "col";
         cardContainer.appendChild(column);
@@ -50,7 +53,7 @@ async function createCard(){
 
 document.addEventListener('DOMContentLoaded', createCard);
 
-
+// redirect function for, when a user click on a view project button, they redirect to project-info.html file and also store the project id in the local storage to identify which project is user want to see. 
 const redirect = (id) => {
     localStorage.setItem("projectId", id);
     location.href = "project-info.html";
