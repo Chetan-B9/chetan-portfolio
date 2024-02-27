@@ -1,7 +1,8 @@
 "use strict";
+// accessing project id stored in local storage by projects.html to show the details of the choosen project. 
 let storedProjectId = localStorage.getItem("projectId");
-console.log(storedProjectId);
 
+// function to get project data from projects-data.json file.
 async function projectData(){
     try{
         const response = await fetch("projects-data.json");
@@ -13,6 +14,7 @@ async function projectData(){
     }
 }
 
+// function to fetch the received project data.
 async function fetchData(){
     const reponsedData = await projectData();
 
@@ -28,6 +30,7 @@ async function fetchData(){
     const technologies = document.getElementById('tech-container');
     const slider = document.getElementById('carousel_inner');
 
+    // object which holds images of skills.
     const techImages = {
         "HTML" : "./Icons/skills icons/html-5-svgrepo-com.webp",
         "CSS" : "./Icons/skills icons/css3-svgrepo-com.webp",
@@ -38,8 +41,10 @@ async function fetchData(){
         "React" : "./Icons/skills icons/react.webp"
     }
 
+    // Accessing object of choosen project id
     reponsedData.forEach(project => {
-        if(project.projectId === storedProjectId){
+        // if project id from json file and project id which is stored in local storage is match then fetch the access project data one-by-one and display.
+        if(project.projectId === storedProjectId){  
             projectName.innerHTML = project.projectName;
             description.innerHTML = project.description;
             goal.innerHTML = project.goal;
@@ -47,8 +52,10 @@ async function fetchData(){
             projectVideo.src = project.video;
             githubLink.href = project.github;
 
+            // According to the skills name placed in json file displaying the images of those skills.
             project.usedTechnologies.forEach(tech => {
                 if(tech in techImages){
+                    // creating dynamic division for each skill, in that division images will be displayed. 
                     const techContainer = document.createElement('div');
                     techContainer.className = "tech";
                     techContainer.setAttribute("data-bs-toggle", "tooltip");
@@ -60,6 +67,7 @@ async function fetchData(){
                 }
             })
 
+            // Fetching screenshots from json file.
             project.screenshots.forEach((screenshot, index) => {
               const carouselItem = document.createElement('div');
               (index === 0) ? carouselItem.className = "carousel-item active" : carouselItem.className = "carousel-item";
@@ -72,6 +80,7 @@ async function fetchData(){
               slider.appendChild(carouselItem);
             });
 
+            // if project doesn't containe hosted/live link of project then display video icon other wise display link icon. 
             if("video" in project){
                 icon.className = "fa-solid fa-circle-play";
                 iconTitle.innerHTML = "Watch Output";
@@ -87,4 +96,4 @@ async function fetchData(){
     })
 }
 
-document.addEventListener('DOMContentLoaded', fetchData);
+document.addEventListener('DOMContentLoaded', fetchData); // when the HTML is compleatly loaded on that time the fetchData() will be executed.
