@@ -59,5 +59,22 @@
         ],
         "video" : "video/Music Player Edited.webm",
         "github" : "https://github.com/Chetan-B9/Music-Player"
+    },
+
+    {
+        "projectId" : "p4",
+        "projectName" : "Personal Portfolio Project",
+        "description" : "This personal portfolio project showcases my web development skills by creating a responsive and visually appealing website. The website is built using HTML, CSS, JavaScript, and Bootstrap, and it highlights my experience, skills, projects, and contact information.",
+        "goal" : "As a web developer, my goal with this personal portfolio project is to showcase my skills and expertise in frontend development. Through this website, I aim to highlight my knowledge of web standards, best practices, and technologies while creating an engaging user experience for visitors. Additionally, I want to use this project to attract potential clients or employers and demonstrate my ability to create attractive and responsive websites.",
+        "myRole" : "I designed and developed this personal portfolio project from scratch using HTML, CSS, JavaScript, and Bootstrap. Starting with a content outline, I created a wireframe and then designed a custom layout and graphics using Adobe XD. I wrote the HTML and CSS code to bring the design to life and utilized JavaScript to add interactivity and dynamic effects. I also integrated Bootstrap to ensure that the website is responsive and accessible across devices and platforms. Overall, I performed the roles of developer, designer, and project manager throughout this project.",
+        "usedTechnologies" : ["HTML", "CSS", "Bootstrap", "JavaScript"],
+        "thumbnail" : "Screenshots/Personal Portfolio/Home page.webp",
+        "screenshots" : [
+            "Screenshots/Personal Portfolio/Home page.webp",
+            "Screenshots/Personal Portfolio/projects page.webp",
+            "Screenshots/Personal Portfolio/project detail.webp"
+        ],
+        "liveLink" : "https://chetan-b9.github.io/chetan-portfolio/index.html",
+        "github" : "not accessable"
     }
 ]

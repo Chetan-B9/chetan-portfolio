@@ -50,7 +50,12 @@ async function fetchData(){
             goal.innerHTML = project.goal;
             role.innerHTML = project.myRole;
             projectVideo.src = project.video;
-            githubLink.href = project.github;
+
+            if(project.github !== "not accessable") {
+                githubLink.href = project.github;
+             } else {
+                githubLink.addEventListener('click', () => alert("Sorry! This project repository is not accessable by visitors!"));
+             } 
 
             // According to the skills name placed in json file displaying the images of those skills.
             project.usedTechnologies.forEach(tech => {
@@ -90,6 +95,7 @@ async function fetchData(){
                 link1.removeAttribute('data-bs-target');
                 icon.className = "fa-solid fa-globe";
                 iconTitle.innerHTML = "View Live";
+                link1.href = project.liveLink;
             }
         }
         
