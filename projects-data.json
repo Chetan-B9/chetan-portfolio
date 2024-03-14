@@ -76,5 +76,21 @@
         ],
         "liveLink" : "https://chetan-b9.github.io/chetan-portfolio/index.html",
         "github" : "not accessable"
+    },
+    {
+        "projectId" : "p5",
+        "projectName" : "Google Search Engine Clone",
+        "description" : "This project is a clone of the world-renowned Google Search Engine, recreated using HTML, CSS, and JavaScript. The aim of this project was to replicate the core functionality and user interface of Google's search engine while providing a hands-on learning experience for web development enthusiasts.",
+        "goal" : "The goal is to create a fully functional clone of the Google Search Engine using HTML, CSS, and JavaScript to showcase proficiency in front-end web development skills. Ensure that the clone replicates the key features and functionalities of the original Google Search, including: <span>Accurate search functionality</span>, <span>Responsive design</span>, <span>User-friendly interface</span>, <span>Search result display</span>.",
+        "myRole" : "Developed a functional search engine prototype, replicating core features of Google Search using HTML, CSS, and JavaScript. This project demonstrates my proficiency in: <span>Frontend Development</span>, <span>JavaScript Fundamentals</span>. I constructed a user-friendly interface with a search bar and results display, leveraging HTML and CSS for structure and styling. And I implemented search functionality using JavaScript, enabling users to enter queries and retrieve simulated results.",
+        "usedTechnologies" : ["HTML", "CSS", "JavaScript"],
+        "thumbnail" : "Screenshots/Google Search Engine Clone/google search engine clone - 1.webp",
+        "screenshots" : [
+            "Screenshots/Google Search Engine Clone/google search engine clone - 1.webp",
+            "Screenshots/Google Search Engine Clone/google search engine clone - 2.webp",
+            "Screenshots/Google Search Engine Clone/google search engine clone - 3.webp"
+        ],
+        "liveLink" : "https://chetan-b9.github.io/Google-search-engine-clone/",
+        "github" : "https://github.com/Chetan-B9/Google-search-engine-clone"
     }
 ]
