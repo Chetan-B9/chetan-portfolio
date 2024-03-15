@@ -10,6 +10,11 @@ async function projectData(){
     }
 }
 
+// The function who truncate the string 
+const strTruncator = (str, maxLength) => {
+    return (str.length > maxLength) ? str.substring(0, maxLength).trim()+"<span>....</span>" : str;
+}
+
 // creating a function which creates dynamic project cards for each project.
 async function createCard(){
     const cardContainer = document.getElementById('cards-container');
@@ -35,10 +40,10 @@ async function createCard(){
         cardBody.className = "card-body";
         cardBody.innerHTML = `
            <div class="card_title_container">
-             <h5 class="card-title">${project.projectName}</h5>
+             <h5 class="card-title">${strTruncator(project.projectName, 34)}</h5>
            </div>
            <div class="card_text_container">
-             <p class = "card-text">${project.description}</p>
+             <p class = "card-text">${strTruncator(project.description, 145)}</p>
            </div>
            <hr>`;
         card.appendChild(cardBody);

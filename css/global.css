@@ -22,7 +22,8 @@
 /* style for firefox only */
 body {
     scrollbar-color: var(--main-color) var(--main-bg-color);
-    scrollbar-width: thin; 
+    scrollbar-width: thin;
+    overflow-x: hidden; 
 }
 
 /* style for all browsers  */
