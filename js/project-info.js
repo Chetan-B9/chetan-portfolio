@@ -41,6 +41,18 @@ async function fetchData(){
         "React" : "./Icons/skills icons/react.webp"
     }
 
+    const showFeatures = (features) => {
+        document.getElementById('features-container').innerHTML = `
+            <h5 class="section-headings">Features</h5>
+            <ul class="mt-4" id="features"></ul>
+        `
+        const featuresContainer = document.getElementById('features');
+        features.forEach((feature) => {
+            featuresContainer.innerHTML += `<li>${feature}</li>`;
+        })
+        
+    }
+
     // Accessing object of choosen project id
     reponsedData.forEach(project => {
         // if project id from json file and project id which is stored in local storage is match then fetch the access project data one-by-one and display.
@@ -48,6 +60,7 @@ async function fetchData(){
             projectName.innerHTML = project.projectName;
             description.innerHTML = project.description;
             goal.innerHTML = project.goal;
+            project.features.length !== 0 && showFeatures(project.features);
             role.innerHTML = project.myRole;
             projectVideo.src = project.video;
 
