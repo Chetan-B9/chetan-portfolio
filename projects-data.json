@@ -97,5 +97,27 @@
         ],
         "liveLink" : "https://chetan-b9.github.io/Google-search-engine-clone/",
         "github" : "https://github.com/Chetan-B9/Google-search-engine-clone"
+    },
+    {
+        "projectId" : "p6",
+        "projectName" : "Form Validation - Mini Project",
+        "description" : "The 'Form Validation Project' is a compact yet powerful demonstration of form validation techniques using HTML, CSS, and JavaScript technologies. Designed to streamline the user input process, this project showcases the implementation of essential validation rules to ensure data integrity and enhance user experience.",
+        "goal" : "The primary goal of this mini project is to provide a user-friendly solution for validating form inputs in web applications. By leveraging the power of client-side validation techniques, the project aims to enhance data accuracy and improve the overall usability of web forms.",
+        "features": [
+            "<span><b>Attractive Design: </b></span>This has very attracive and cool design.",
+            "<span><b>Intuitive User Interface: </b></span>Seamlessly integrated validation messages guide users through the input process, making it easy to identify and correct errors.",
+            "<span><b>Real-time Feedback: </b></span>Instant feedback ensures users are notified of validation errors as they occur, facilitating prompt correction and submission.",
+            "<span><b>Cross-browser Compatibility: </b></span>Built with modern web technologies, the project ensures consistent performance across different web browsers, enhancing accessibility for users."
+        ],
+        "myRole" : "As the developer of this project, I conceptualized, designed, and implemented the project from scratch. Leveraging my expertise in HTML, CSS, and JavaScript, I crafted an intuitive and efficient solution to address common challenges associated with form validation in web development.",
+        "usedTechnologies" : ["HTML", "CSS", "JavaScript"],
+        "thumbnail" : "Screenshots/Form Validation/form image 1.webp",
+        "screenshots" : [
+            "Screenshots/Form Validation/form image 1.webp",
+            "Screenshots/Form Validation/form image 2.webp",
+            "Screenshots/Form Validation/form image 3.webp"
+        ],
+        "liveLink" : "https://chetan-b9.github.io/form-validation-mini-project/",
+        "github" : "https://github.com/Chetan-B9/form-validation-mini-project"
     }
 ]
