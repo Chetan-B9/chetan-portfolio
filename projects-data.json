@@ -119,5 +119,27 @@
         ],
         "liveLink" : "https://chetan-b9.github.io/form-validation-mini-project/",
         "github" : "https://github.com/Chetan-B9/form-validation-mini-project"
+    },
+    {
+        
+        "projectId" : "p7",
+        "projectName" : "Weather Application",
+        "description" : "This weather App is a modern and user-friendly web application that provides real-time weather information for any location worldwide. Built using HTML, CSS, and JavaScript, it offers a seamless and visually appealing experience across devices.",
+        "goal" : "The primary goal of this Weather App is to empower users with accurate and up-to-date weather data, enabling them to make informed decisions about their daily activities. Whether planning outdoor events, commuting, or simply staying informed about local conditions, this app serves as a reliable weather companion.",
+        "features": [
+            "<span><b>Real-time weather updates: </b></span> Leveraging advanced APIs, WeatherWise fetches and displays the latest meteorological data, including temperature, humidity, wind speed, and visibility.",
+            "<span><b>Intuitive user interface:  </b></span>The app boasts a clean and modern design, presenting weather information in an easily understandable format.",
+            "<span><b>Location search: </b></span>Users can quickly access weather details for any location by simply entering the city name ",
+            "<span><b>Responsive design: </b></span>The app is optimized for seamless functionality across various devices, from desktops to mobile phones, ensuring a consistent experience."
+        ],
+        "myRole" : "As the sole developer of this application, I was responsible for the entire project lifecycle, from conceptualization and design to implementation and deployment. I meticulously crafted the front-end codebase, ensuring optimal performance, accessibility, and cross-browser compatibility. Additionally, I integrated third-party weather APIs, implementing error handling and data caching mechanisms for a smooth user experience. Throughout the development process, I followed industry best practices, adhering to coding standards and employing modular, scalable architectures.",
+        "usedTechnologies" : ["HTML", "CSS", "JavaScript"],
+        "thumbnail" : "Screenshots/Weather Application/weather-app-1.webp",
+        "screenshots" : [
+            "Screenshots/Weather Application/weather-app-1.webp",
+            "Screenshots/Weather Application/weather-app-2.webp"
+        ],
+        "liveLink" : "https://chetan-b9.github.io/weather-app-with-js/",
+        "github" : "https://github.com/Chetan-B9/weather-app-with-js"
     }
 ]
